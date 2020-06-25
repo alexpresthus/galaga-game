@@ -1,0 +1,8 @@
+{"type":"WaveCollection","totalStages":2,"stages":
+  [
+     {"type":"Wave","id":"STAGE 1","totalLoads":2,"loads":[{"type":"e1","amount":5},{"type":"e2","amount":5}]},
+     {"type":"Wave","id":"STAGE 2","totalLoads":3,"loads":[{"type":"e1","amount":5},{"type":"e2","amount":5},{"type":"e3","amount":5}]},
+     {"type":"Wave","id":"STAGE 3","totalLoads":4,"loads":[{"type":"e1","amount":5},{"type":"e2","amount":5},{"type":"e3","amount":5},{"type":"e4","amount":5}]},
+     {"type":"Wave","id":"STAGE 4","totalLoads":6,"loads":[{"type":"e1","amount":5},{"type":"e2","amount":5},{"type":"e3","amount":5},{"type":"e4","amount":5},{"type":"e4","amount":5},{"type":"e4","amount":5}]}
+   ]
+}
