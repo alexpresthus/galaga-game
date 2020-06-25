@@ -373,13 +373,13 @@ function setup () {
     curScoreValue.style("padding", "50px 20px");
     curScoreValue.style("position", "relative");
 
-    oneLifeLeft = createImg("game/img/onelife.png");
+    oneLifeLeft = createImg("/game/img/onelife.png");
     oneLifeLeft.size(32,32);
     oneLifeLeft.parent(playScreen);
     oneLifeLeft.position(gameScreenRight+50, height-67);
     oneLifeLeft.hide();
 
-    twoLivesLeft = createImg("game/img/twolives.png");
+    twoLivesLeft = createImg("/game/img/twolives.png");
     twoLivesLeft.size(64,32);
     twoLivesLeft.parent(playScreen);
     twoLivesLeft.position(gameScreenRight+50, height-67);
