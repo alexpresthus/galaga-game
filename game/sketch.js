@@ -113,17 +113,17 @@ let lbCell12, lbCell22, lbCell32, lbCell42, lbCell52;
 
 
 function preload () {
-  font = loadFont('assets/TurretRoad-Regular.ttf');
-  stages = loadJSON("stages.json");
-  leaderboard = loadJSON("leaderboard.json");
-  galaga_spritesheet = loadImage("img/galaga_spritesheet.png");
-  soundBullet = loadSound("sound/laser-shot.wav");
-  soundExplosion = loadSound("sound/explosion.wav");
-  soundButton = loadSound("sound/button-click.wav");
-  bgMusic = loadSound("sound/bg-music.wav");
-  soundGameOver = loadSound("sound/game-over.wav");
-  soundGameComplete = loadSound("sound/game-complete.mp3");
-  soundLifeLost = loadSound("sound/life-lost.wav");
+  font = loadFont('/game/assets/TurretRoad-Regular.ttf');
+  stages = loadJSON("/game/stages.json");
+  leaderboard = loadJSON("/game/leaderboard.json");
+  galaga_spritesheet = loadImage("/game/img/galaga_spritesheet.png");
+  soundBullet = loadSound("/game/sound/laser-shot.wav");
+  soundExplosion = loadSound("/game/sound/explosion.wav");
+  soundButton = loadSound("/game/sound/button-click.wav");
+  bgMusic = loadSound("/game/sound/bg-music.wav");
+  soundGameOver = loadSound("/game/sound/game-over.wav");
+  soundGameComplete = loadSound("/game/sound/game-complete.mp3");
+  soundLifeLost = loadSound("/game/sound/life-lost.wav");
 }
 
 function setup () {
